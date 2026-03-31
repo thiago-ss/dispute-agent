@@ -1,18 +1,19 @@
-# DisputeAI — Close Strategy
+# Dispute resolution agent — close Strategy
 
-## The Business Case
+## The business case
 
-### ROI Calculation
+### ROI calculation
 
-| Input | Value |
-|-------|-------|
-| Average disputes per day | 30 |
-| Average resolution time today | 45 minutes |
-| Target resolution time with agent | 8 minutes |
-| Time saved per dispute | 37 minutes |
-| Loaded cost (analyst + overhead) | $55/hour |
+| Input                             | Value      |
+| --------------------------------- | ---------- |
+| Average disputes per day          | 30         |
+| Average resolution time today     | 45 minutes |
+| Target resolution time with agent | 8 minutes  |
+| Time saved per dispute            | 37 minutes |
+| Loaded cost (analyst + overhead)  | $55/hour   |
 
 **Monthly savings:**
+
 - 30 disputes/day × 22 working days = 660 disputes/month
 - 660 × 37 min × ($55/60) = **~$22,300/month in recovered analyst time**
 - Plus: faster resolution reduces DSO (days sales outstanding) — disputes that drag 30+ days tie up cash
@@ -21,7 +22,7 @@
 
 ---
 
-## Deal Structure
+## Deal structure
 
 **Recommended entry point:** Annual contract, starting with the dispute automation module.
 
@@ -30,12 +31,13 @@
 - **Year 2 expansion:** Proactive dispute prevention (flag invoices likely to be disputed before they're sent), carrier scorecard automation, claims processing
 
 **Pricing anchors:**
+
 - Frame against the $22K+/month savings: even at $5K/month, ROI is 4x in Year 1
 - Compare to: hiring another AR analyst ($65K/year fully loaded) vs. an agent that handles 20+ disputes/day without training time or turnover
 
 ---
 
-## Objection Handling
+## Objection handling
 
 ### "What about data security? We can't send customer invoice data to a third party."
 
@@ -45,7 +47,7 @@
 
 ### "We could build this internally."
 
-**Response:** You absolutely could — and if you have a strong AI engineering team, it's a reasonable option. The real question is: *at what cost and by when?* Based on what we've seen, internal builds for this type of agentic workflow typically take 4–6 months to reach production quality (integration work, prompt engineering, testing against edge cases, compliance review). That's 6 months of disputes still being handled manually, plus an ongoing maintenance burden. We can be running in production in 4 weeks, with your team's input, not their time.
+**Response:** You absolutely could — and if you have a strong AI engineering team, it's a reasonable option. The real question is: _at what cost and by when?_ Based on what we've seen, internal builds for this type of agentic workflow typically take 4–6 months to reach production quality (integration work, prompt engineering, testing against edge cases, compliance review). That's 6 months of disputes still being handled manually, plus an ongoing maintenance burden. We can be running in production in 4 weeks, with your team's input, not their time.
 
 ---
 
@@ -63,13 +65,13 @@
 
 ### "Your competitor offers something similar."
 
-**Response:** Happy to do a head-to-head. The key difference to probe: does their system actually validate charges against *your specific contracts*, or does it apply a generic ruleset? Logistics contracts are idiosyncratic — a 2-hour free detention window at $75/hour vs. a 3-hour window at $65/hour changes the math entirely. DisputeAI is built around your contract terms as the source of truth. Ask them to demo a mixed scenario — one valid charge, one invalid — and see if their agent distinguishes correctly.
+**Response:** Happy to do a head-to-head. The key difference to probe: does their system actually validate charges against _your specific contracts_, or does it apply a generic ruleset? Logistics contracts are idiosyncratic — a 2-hour free detention window at $75/hour vs. a 3-hour window at $65/hour changes the math entirely. DisputeAI is built around your contract terms as the source of truth. Ask them to demo a mixed scenario — one valid charge, one invalid — and see if their agent distinguishes correctly.
 
 ---
 
-## Expansion Path (After Year 1)
+## Expansion path (after Year 1)
 
-1. **Proactive dispute prevention:** Agent reviews invoices *before* they're sent and flags charges likely to be disputed based on shipment data and contract terms. Reduces dispute volume by addressing issues upstream.
+1. **Proactive dispute prevention:** Agent reviews invoices _before_ they're sent and flags charges likely to be disputed based on shipment data and contract terms. Reduces dispute volume by addressing issues upstream.
 
 2. **Carrier performance scoring:** Agent correlates detention patterns with specific carriers and routes. Surface insights to ops team: which carriers are consistently causing detention charges, which routes have highest dispute rates.
 
@@ -79,9 +81,9 @@
 
 ---
 
-## Champion Enablement
+## Champion enablement
 
-The Ops Manager is your champion. Help them make the internal case:
+The Ops Manager is our champion. Help them make the internal case:
 
 - **Their talking point to finance:** "This pays for itself in the first month. We're spending $22K/month on analyst time for disputes. This costs $X/month and handles it in a fraction of the time."
 - **Their talking point to legal:** "We're not automating the decision — we're automating the research. A human still approves every resolution during the pilot."
