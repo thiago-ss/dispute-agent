@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="docs/images/hero.png" alt="DisputeAI — Invoice dispute resolution agent" width="800" />
+  <img src="docs/images/hero.png" alt="Invoice dispute resolution agent" width="800" />
 </p>
 
-# DisputeAI — Invoice dispute resolution agent
+# Invoice dispute resolution agent
 
 An AI-powered agent that automates freight invoice dispute resolution for logistics companies. Paste a customer dispute email, and the agent systematically investigates the invoice, checks shipment timelines, verifies contract terms, validates each charge, drafts a professional response email, and updates the CRM — all in under a minute.
 
@@ -22,7 +22,7 @@ Built with **Next.js 16**, the **Vercel AI SDK**, and **Claude Sonnet 4.5**.
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────┐
