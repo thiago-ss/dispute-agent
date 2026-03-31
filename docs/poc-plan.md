@@ -21,7 +21,7 @@ This document outlines a 4-week plan to take the dispute resolution agent from t
 **Out of scope (phase 2+):**
 
 - Freight rate disputes (require market data integration)
-- Claims/damage disputes (require photo/document processing)
+- Claims/damage disputes (require photo/document processing) --- possible escalate scenario to human
 - Proactive dispute prevention (flagging invoices before they're sent)
 
 ---
@@ -109,3 +109,4 @@ This document outlines a 4-week plan to take the dispute resolution agent from t
 - **Claude API is SOC 2 Type II certified.** Anthropic does not train on API inputs by default.
 - **Role-based access:** The agent uses read-only API credentials for invoice and shipment systems. Write access is scoped to CRM case notes only.
 - **Audit log:** Every agent action (tool call, finding, e-mail draft) is logged with timestamp, input, and output for compliance review.
+- **Reinforcement learning:** The agent will learn from the human feedback and improve its accuracy over time.

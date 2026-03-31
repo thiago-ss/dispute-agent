@@ -1,4 +1,4 @@
-# Dispute resolution agent — close Strategy
+# Dispute resolution agent — close strategy
 
 ## The business case
 
