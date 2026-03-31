@@ -1,11 +1,3 @@
-<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="256" height="256" rx="64" fill="#09090b"/>
-  <path d="M128 48L56 192H104L128 140L152 192H200L128 48Z" fill="url(#paint0_linear)"/>
-  <circle cx="128" cy="140" r="16" fill="#09090b"/>
-  <defs>
-    <linearGradient id="paint0_linear" x1="128" y1="48" x2="128" y2="192" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#60a5fa"/>
-      <stop offset="1" stop-color="#8b5cf6"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <text y=".9em" font-size="90">⚖️</text>
 </svg>
