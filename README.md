@@ -183,3 +183,5 @@ The app ships with three built-in scenarios you can try:
 | **Fuel surcharge overcharge** | Customer was billed 24% fuel surcharge, contract caps at 20%. Agent identifies the overcharge and calculates the credit.                   |
 | **Detention charge dispute**  | Detention charge billed but driver was within the free window. Agent validates using shipment timeline and confirms the charge is invalid. |
 | **Valid detention**           | Customer disputes a detention charge that is actually correct. Agent explains why the charge stands using timeline and contract data.      |
+
+<img width="735" height="585" alt="image" src="https://github.com/user-attachments/assets/ae657463-ab47-4e87-a274-467137de9a0e" />
