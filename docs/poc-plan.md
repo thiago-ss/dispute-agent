@@ -1,4 +1,4 @@
-# Dispute resolution agent — POC plan (2–4 weeks)
+# Dispute resolution agent — POC plan (4 weeks)
 
 ## Overview
 
